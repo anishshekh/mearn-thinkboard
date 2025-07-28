@@ -6,7 +6,7 @@ import path from "path"
 
 import notesRoute from "./router/notesRoute.js";
 import { connectDB } from "./config/db.js";
-import ratelimiter from "./middelware/ratelimiter.js";
+import ratelimiter from "./middleware/ratelimiter.js";
 
 dotenv.config();
 
